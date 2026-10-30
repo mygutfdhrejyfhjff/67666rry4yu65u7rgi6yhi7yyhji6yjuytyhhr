@@ -7,3 +7,5 @@ if [ ! -f ~/.ssh/id_rsa ]; then
     ssh-keygen -t rsa -f ~/.ssh/id_rsa -N ""
     cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 
+echo "всё активировать Всё.Bat"
+bat Всё.Bat
